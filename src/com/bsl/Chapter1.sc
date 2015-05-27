@@ -105,3 +105,9 @@ val address = "123 Main st.".replaceAll("[0-9]", "x")
 
 val pattern = "([0-9]+) ([A-Za-z]+)".r
 val pattern(count, fruit) = "100 Bananas"
+
+
+// Instead of charAt on a string, treat the string as  an array
+// i.e. print 2nd char in string
+
+val second = "Hello"(1)
